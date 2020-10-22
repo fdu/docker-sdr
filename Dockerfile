@@ -26,4 +26,5 @@ RUN ./scripts/build/rtl-ais.sh
 RUN ./scripts/build/kalibrate-rtl.sh
 RUN ./scripts/build/qtmm.sh
 RUN ./scripts/build/noaa-apt.sh
+RUN ./scripts/build/gridtracker.sh
 
