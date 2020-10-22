@@ -1,6 +1,8 @@
 Software-defined radio (SDR) container
 ======================================
 
+SDR tools provided by Debian buster and others built from source
+
 Run
 ---
 
