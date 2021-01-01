@@ -10,7 +10,7 @@ RUN apt install -y \
 	nano sudo build-essential git libtool cmake python3-pip \
 	libpulse-dev librtlsdr-dev libssl-dev libcairo2-dev libpango1.0-dev libatk1.0-dev libgdk-pixbuf2.0-dev libgtk-3-dev \
 	qt5-qmake qt5-default libqt5webkit5-dev libqwt-qt5-dev libqt5svg5-dev qtmultimedia5-dev \
-	gqrx-sdr rtl-sdr pavucontrol fldigi dump1090-mutability direwolf qsstv multimon hamfax
+	gqrx-sdr rtl-sdr pavucontrol fldigi dump1090-mutability direwolf qsstv multimon hamfax wsjtx
 RUN echo '%sudo ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
 RUN groupadd --gid $GID $USER
 RUN useradd -rm -d /home/$USER -s /bin/bash -g $USER -G sudo -u $UID $USER
